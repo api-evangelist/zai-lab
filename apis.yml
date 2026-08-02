@@ -1,8 +1,26 @@
 aid: zai-lab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zai-lab.png
 name: Zai Lab
-description: 'Zai Lab is a company surfaced as a portfolio company of hongshan, qiming and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Zai Lab is an innovative, research-based, commercial-stage biopharmaceutical
+  company based in China and the United States, founded in 2014 with headquarters in
+  Cambridge, Massachusetts and Shanghai. The company discovers, develops, and commercializes
+  transformative medicines for conditions with significant unmet patient needs across
+  oncology, immunology, neuroscience, and infectious disease. As a fully integrated
+  biopharma, Zai Lab spans early-stage discovery through development, regulatory approval,
+  manufacturing, and commercialization. It was surfaced in the API Evangelist network
+  as a portfolio company of HongShan and Qiming Venture Partners. Zai Lab publishes
+  a corporate and investor web presence but exposes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/zai-lab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Biopharmaceutical
+- Oncology
+- Immunology
+- Neuroscience
+- Infectious Disease
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zai-lab-domain-security.yml
 - type: Website
-  url: https://zailaboratory.com
+  url: https://www.zailaboratory.com
+- type: About
+  url: https://www.zailaboratory.com/about-us/
+- type: Blog
+  url: https://www.zailaboratory.com/press/
+- type: Support
+  url: https://www.zailaboratory.com/contact-us/
+- type: TermsOfService
+  url: https://www.zailaboratory.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.zailaboratory.com/zai-lab-limited-global-privacy-notice/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
